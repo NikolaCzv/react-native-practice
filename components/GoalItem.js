@@ -13,7 +13,7 @@ const GoalItem = props => {
                 <Text>{props.title}</Text>
             </View>
         </TouchableOpacity>
-    )}
+    )};
 
 const styles = StyleSheet.create({
     listItem: {
@@ -23,6 +23,6 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         margin: 10
       }
-})
+});
 
 export default GoalItem;
